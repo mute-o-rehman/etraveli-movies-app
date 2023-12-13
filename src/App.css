@@ -1,0 +1,27 @@
+/* App.css */
+.star-rating {
+  color: #ffc107;
+  display: flex;
+}
+
+.star-rating span {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+.star-rating span.filled {
+  color: #f8d008;
+}
+
+.selected {
+  background-color: #cce5ff;
+  border-radius: 5px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-container label {
+  margin-right: 10px;
+}
