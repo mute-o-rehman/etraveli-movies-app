@@ -1,9 +1,12 @@
 # Etraveli Movie App List Assignment
 
-This project is a React application that displays a list of Star Wars movies and their details. It utilizes Redux for state management and fetches additional movie details from the OMDB API.
+This project is a React application that displays a list of movies and their details. It utilizes Redux for state management and fetches additional movie details from the OMDB API.
 
-![Alt Text](App Final Screenshot)
-![App Image](https://github.com/mute-o-rehman/etraveli-movies-app/blob/main/src/images/app-ss.png)
+![Alt Text](App Final Desktop Screenshot)
+![App Image](https://github.com/mute-o-rehman/etraveli-movies-app/blob/main/src/images/desktop-ss.png)
+
+![Alt Text](App Final Mobile Screenshot)
+![App Image](https://github.com/mute-o-rehman/etraveli-movies-app/blob/main/src/images/mobile-ss.png)
 
 ## Table of Contents
 

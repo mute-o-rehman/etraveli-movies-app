@@ -133,7 +133,7 @@ const MovieList = () => {
 
   return (
     <div className="container-fluid">
-      <h2 className="text-center mt-3 mb-4">Movies Infroamtion Applicaton</h2>
+      <h2 className="text-center mt-3 mb-4">Movies Information Application</h2>
       <div className="row">
         <div className="col-12">
           <MovieHeader
@@ -151,7 +151,11 @@ const MovieList = () => {
             <ul className="list-group">
               {filteredMovies.map((movie) => (
                 <li
-                  className="list-group-item list-group-item-action"
+                  className={`list-group-item list-group-item-action ${
+                    selectedMovie && selectedMovie.title === movie.title
+                      ? "active"
+                      : ""
+                  }`}
                   key={movie.episode_id}
                   onClick={() => handleSelectMovie(movie)}
                 >
